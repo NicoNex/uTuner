@@ -7,13 +7,11 @@ class MyApp extends StatelessWidget {
 	// This widget is the root of your application.
 	@override
 	Widget build(BuildContext context) {
-	return MaterialApp(
-	  title: 'Flutter Demo',
-	  theme: ThemeData(
-		primarySwatch: Colors.blue,
-	  ),
-	  home: MyHomePage(title: 'uTuner'),
-	);
+		return MaterialApp(
+			title: 'µTuner',
+			theme: ThemeData(primarySwatch: Colors.blue),
+			home: MyHomePage(title: 'µTuner'),
+		);
 	}
 }
 
@@ -52,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
 	@override
 	Widget build(BuildContext context) {
 		final mainTextTheme = Theme.of(context).textTheme.apply(
-		  bodyColor: Colors.white,
-		  displayColor: Colors.white,
+			bodyColor: Colors.white,
+			displayColor: Colors.white,
 		);
 
 		// This method is rerun every time setState is called, for instance as done
